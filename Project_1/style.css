@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Poppins" !important;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+
+}
+header > h1{
+    cursor: pointer;
+}
+header > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+header > ul >li{
+    list-style: none;
+
+}
+header > ul > li:hover{
+    cursor: pointer;
+    opacity: 0.5;
+   
+}
+
+header > div{
+    display: flex;
+    gap: 15px;
+
+}
+
+header > div > button{
+
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 400;
+
+}
+.login{
+    background-color: tomato;
+}
+.main{
+    margin-top: 6%;
+    padding: 40px;
+    /* background-color: #3a237b; */
+    color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.main h1{
+    font-size: 30px;
+}
+.form{
+    display: flex;
+    gap: 10px;
+    
+}
+.form input{
+    border-radius: 7px;
+    padding: 7px;
+    background-color: honeydew;
+}
+
+
+
+.form input:focus{
+    outline: none;
+}
+
+.main_img img{
+    width: 700px;
+    height:500px ;
+    background: transparent;
+    border-radius: 5px;
+    border: 15px solid gainsboro;
+}
+
+.brief{
+    text-align: center;
+    padding: 10px;
+    background-color: gainsboro;
+}
+.orange{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 6px;
+    font-style: italic;
+    border: none;
+    cursor: pointer;
+}
+.Answer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    
+
+
+}
+.chat-img img{
+    border: 15px solid gainsboro;
+}
+.phone{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: gainsboro;
+    
+}
+.circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+
+}
+.circle img{
+    background: transparent;
+    width: 200px;
+    background-position: center;
+    position: relative;
+    
+}
+.automate{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.automate_img img{
+    height: 400px;
+    border: 30px solid gainsboro;
+}
+.pioneer{
+    padding: 40px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+   
+    
+}
+.pioneer >div > button{
+    height: 50px;
+}
+
+.pioneer > div{
+    display: flex;
+    justify-content: space-around;
+}
+.pioneer_cards{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.pioneer_cards img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.card{
+    width: 30%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 0px black;
+}
+.card h2{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.icons > i{
+    color: orangered !important;
+    font-size: 20px;
+    cursor: pointer;
+
+}
